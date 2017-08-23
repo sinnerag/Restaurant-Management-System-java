@@ -1,0 +1,43 @@
+	
+	
+	
+	private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {  
+			 // Code block for drinks selection
+			 
+						double AppleJuice = 1.29;
+						double Tea = 1.29;
+						double Cola = 0.25;
+						double Coffee = 2.23;
+						double IceTea = 0.89;
+						double IceCoffee = 2.45;
+						double Orange = 2.10;
+						
+						if (jComboBox1.getSelectedItem().equals("Apple Juice")) {
+							String Cod = String.format("%.2f", AppleJuice);
+							jTextField1.setText(Cod);
+						}  
+						if (jComboBox1.getSelectedItem().equals("Tea")) {
+							String Cod = String.format("%.2f", Tea);
+							jTextField1.setText(Cod);
+						}  
+						if (jComboBox1.getSelectedItem().equals("Cola")) {
+							String Cod = String.format("%.2f", Cola);
+							jTextField1.setText(Cod);
+						}  
+						 if (jComboBox1.getSelectedItem().equals("Coffee")) {
+							String Cod = String.format("%.2f", Coffee);
+							jTextField1.setText(Cod);
+						}  
+						 if (jComboBox1.getSelectedItem().equals("Ice Tea")) {
+							String Cod = String.format("%.2f", IceTea);
+							jTextField1.setText(Cod);
+						} 
+						 if (jComboBox1.getSelectedItem().equals("Ice Coffee")) {
+							String Cod = String.format("%.2f", IceCoffee);
+							jTextField1.setText(Cod);
+						} 
+						 if (jComboBox1.getSelectedItem().equals("Orange")) {
+							String Cod = String.format("%.2f", Orange);
+							jTextField1.setText(Cod);
+						}
+				}                                          
